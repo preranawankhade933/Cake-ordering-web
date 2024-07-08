@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delisciuos cake</title>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+    
+    <!--custom css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+ <body>
+    <!-- header section start page navbar--> 
+ 
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-cake"></i>Cake</a>
+
+        <nav class="navbar">
+               <a href="#">Home</a></li>
+               <a href="#">Shop</a></li>
+               <a href="#">About</a>
+               <a href="#">services</a>
+               <a href="#">Blog</a>
+               <a href="#">Contact</a>     
+        </nav>
+      <!--
+        <div class="search">
+            <input type="text" class="search-box" placeholder="type here">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="close-btn"><i class="fas fa-close"></i></button>
+        </div>  -->
+        
+        <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="cart-btn" class="fas fa-shopping-cart"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      
+    </header>
+    
+    <!--home section start-->
+
+    <section class="home" id="home"> 
+        <div class="slides-container">
+
+    <div class="slide active">
+    <div class="content">
+          <span>Birthday special cakes</span>
+          <h3>upto 60% 0ff</h3>
+          <a href="#" class="btn">Order Now</a>
+    </div>
+   <div class="img">
+        <img decoding="async" src="https://img.ltwebstatic.com/images3_pi/2023/01/31/167515996403f87937b86f1681113c54a10baff7d8_thumbnail_750x.webp" width="300" height="500">
+  </div>
+</div>
+
+      <div class="slide">
+      <div class="content">
+              <span>Anniversary cakes</span>
+              <h3>upto 40% 0ff</h3> 
+              <a href="#" class="btn">Order Now</a>
+       </div>  
+        <div class="img">
+            <img decoding="async" src="https://i.pinimg.com/736x/f9/23/25/f92325960e956eb394c5364f7f82890c.jpg" width="300" height="500">
+          </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                    <span>kids cakes</span>
+                    <h3>upto 70% 0ff</h3>
+                    <a href="#" class="btn">Order Now</a>
+             </div>  
+              <div class="img">
+                  <img decoding="async" src="https://liliyum.com/cdn/shop/products/Teddybearwithlollipopcake_800x.jpg?v=1633068942"width="300" height="500">
+                </div>
+              </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Valentine's day special cakes</span>
+                <h3>upto 50% 0ff</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>  
+             <div class="img">
+                 <img decoding="async" src="https://liliyum.com/cdn/shop/products/ChocolateMusicCake_2400x.jpg?v=1679393307" width="300" height="500">
+             </div>
+           </div>
+     </div>
+
+      <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+      <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+
+    
+</section>
+
+<!--shop page-->
+
+<div class="heading">
+    <h1>Our Shop</h1>
+</div>
+
+<section class="products">
+     
+    <h1 class="title"> our <span>Products</span> <a href="#">Veiw all >></a> </h1>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="icons">
+            <a herf="#" class="fas fa-shopping-cart"></a>
+            <a herf="#" class="fas fa-heart"></a>
+            <a herf="#" class="fas fa-eye"></a>
+        </div>
+    <div class="img">
+       <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv94yZSjlcMLTrSpdJYoBBT0HENAHLTVnWHQ&s" width="300" height="300">
+    </div>
+    <div class="content">
+        <h3>Berries citrus fruits cake</h3>
+        <div class="price">Rs.159</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <a href="#" class="btn">Order Now</a>
+    </div>
+ </div>
+
+    <div class="box">
+    <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://www.bakersfun.com/wp-content/uploads/2021/12/Cake-617-600x688.jpg" width="300" height="300">
+</div>
+<div class="content">
+    <h3>The rainbow cake</h3>
+    <div class="price">Rs.150</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+   <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://i.pinimg.com/736x/41/2d/97/412d97361061565d0764ea9beca72ccc.jpg" width="300" height="300">
+</div>
+<div class="content">
+    <h3>Strawberry nuttela cake</h3>
+    <div class="price">Rs.245</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+   <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://www.chefrajanbakery.com/assets/mUpload/16447347670001-9414658618_20211006_181754_0000_compress0.jpg"width="300" height="300">
+</div>
+<div class="content">
+    <h3>Green bread spar cake</h3>
+    <div class="price">Rs.180</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://img.freepik.com/premium-photo/chocolate-cake-with-berries-it-cake-with-berries-top_862330-11615.jpg" width="300" height="300">
+</div>
+<div class="content">
+    <h3>Red berries chocolate cake</h3>
+    <div class="price">Rs.199</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+    <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEACYnNFsT3ELxqYiKYt5shL5lWpIL8dwXiQ&s" width="300" height="300">
+</div>
+<div class="content">
+    <h3> Choco vanilla cake</h3>
+    <div class="price">Rs.179</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+   <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://img.freepik.com/premium-photo/chocolate-cake-with-layer-chocolate-nutella-top_670382-1673.jpg" width="300" height="300">
+</div>
+<div class="content">
+    <h3> Dark chocolate nutella cake</h3>
+    <div class="price">Rs.299</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+    </div>
+    <a href="#" class="btn">Order Now</a>
+</div>
+</div>
+
+<div class="box">
+   <div class="icons">
+        <a herf="#" class="fas fa-shopping-cart"></a>
+        <a herf="#" class="fas fa-heart"></a>
+        <a herf="#" class="fas fa-eye"></a>
+    </div>
+<div class="img">
+   <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfy-Jy51KbH6sUQiJYEIMeAYyYQMIbx5P2g&s"width="300" height="300">
+</div>
+<div class="content">
+    <h3> Sprinkles party cake</h3>
+    <div class="price">Rs.249</div>
+    <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+</div>
+
+</div>
+</section>
+
+<!--about page-->
+ 
+<div class="heading">
+     <h1>About us</h1>
+</div>
+
+<section class="about">
+     <div class="img">
+        <img decoding="async" src="https://handletheheat.com/wp-content/uploads/2015/02/Chocolate-Raspberry-Cupcakes-square.jpg" width="300" height="300">
+     </div>
+
+    <div class="content">
+       <span>Welcome to our products</span>
+       <h3>Cake-A-Licious products</h3>
+             <p>Cake is a flourr confection made from flour, sugar, and other ingredients and is usually baked. 
+               in their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations
+                that can be simple or elaborate and which share features with desserts such as pastries, meringues, custards, and pies.
+                     <p>The most common ingredients include flour, sugar, eggs, fat (such as butter, oil, or margarine), a liquid,
+                        and leavening agent, such as baking soda or baking powder. Common additional ingredients include dried,
+                        candied, or fresh fruit, nuts, cocoa, and extracts such as vanilla, with numerous substitutions for the primary
+                         ingredients.Cakes can also be filled with fruit preserves, nuts, or dessert sauces (like custard, jelly, cooked fruit,
+                        whipped cream, or syrups),[1] iced with buttercream or other icings, and decorated with marzipan, piped borders,
+                         or candied fruit.</p>
+                 
+        <a href="#" class="btn">Read more</a>
+    </div>
+</section>
+
+<!--services page-->
+
+<div class="heading">
+    <h1>Services</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="https://t4.ftcdn.net/jpg/00/98/48/35/360_F_98483556_vjTvGqFT45GbTRONrrS4hLNOC3YcpX2b.jpg" width="50" height="50">
+        <div class="content">
+            <h3>Fast delivery</h3>
+            <span> Within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="https://i.pinimg.com/originals/50/53/e5/5053e50d44b104d89bd4d6f1358cb632.png" width="50" height="50">
+        <div class="content">
+            <h3>24 / 7 Available</h3>
+            <span> Call us anytime</span>
+        </div>
+    </div>
+
+
+    <div class="info">
+        <img decoding="async" src="https://i.pinimg.com/originals/73/c1/3b/73c13be33940ef97548863c982bcac99.jpg" width="50" height="50">
+        <div class="content">
+            <h3>Easy payments</h3>
+            <span> Cash or credit</span>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--blog page-->
+
+<div class="heading"> 
+    <h1>Our Blogs</h1>
+</div>
+
+<section class="blogs">
+    <h1 class="title">Our<span>Blogs</span> <a href="#">Veiw all >></a></h1>
+    <div class="box-container">
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://thecakeblog.com/wp-content/uploads/2017/02/lemon-lavender-cupcakes-2.jpg" width="200" height="200">
+    </div>
+    <div class="content">
+    <div class="icons">
+        <a href="#"> <i class="fa-solid fa-calendar-days"></i> 22 june,2021</a>
+        <a href="#"> <i class="fa-regular fa-circle-user"></i> by Lindsay conchar</a>
+    </div>
+    <h3>LEMON LAVENDER CUPCAKES</h3>
+    <p> The sweet lemon cupcake with the light lavender frosting is such a delicious and fun combination!</p>
+    <a href="#" class="btn">Read more...</a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://thecakeblog.com/wp-content/uploads/2017/03/garden-cupcakes-intro.jpg" width="200" height="200">
+    </div>
+    <div class="content">
+    <div class="icons">
+        <a href="#"> <i class="fa-solid fa-calendar-days"></i> 10 feb,2023</a>
+        <a href="#"> <i class="fa-regular fa-circle-user"></i> by cakegirls</a>
+    </div>
+    <h3>GARDEN CUPCAKES</h3>
+    <p>There’s just something about spring. That fresh, post-winter smell is in the air, the buds are just beginning to sprout and the birds are singing. </p>
+    <a href="#" class="btn">Read more...</a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="img">
+        <img decoding="async" src="https://thecakeblog.com/wp-content/uploads/2017/03/blackberry-lime-cake-1-1.jpg" width="200" height="200">
+    </div>
+    <div class="content">
+    <div class="icons">
+        <a href="#"> <i class="fa-solid fa-calendar-days"></i> 12 jan,2022</a>
+        <a href="#"> <i class="fa-regular fa-circle-user"></i> by carrie sellman</a>
+    </div>
+    <h3>BLACKBERRY LIME CAKE</h3>
+         <p>Shades of violet sing as sweetened blackberries meet up with subtle notes of lime, created only with nature’s best. </p>
+    <a href="#" class="btn">Read more...</a>
+    </div>
+</div>
+
+    </div>
+</section>
+
+<!--contact page-->
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+<div class="icons">
+    <i class="fa-solid fa-phone"></i>
+    <h3>Our number</h3>
+    <p>+111-222-333</p>
+    <p>+456-789-7890</p>
+</div>
+
+<div class="icons">
+    <i class="fa-solid fa-envelope"></i>
+    <h3>Our email</h3>
+    <p>abcdefghijkl@gmail.com</p>
+    <p>xyzmail@gmail.com</p>
+</div>
+
+<div class="icons">
+    <i class="fa-solid fa-location-dot"></i>
+    <h3>Our address</h3>
+    <p>Mumbai,india-6674321</p>
+</div>
+    </div>
+
+</section>
+
+<div class="space"></div>
+
+<!--footer -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Quik links</h3>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Home</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Shop</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>About</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Services</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Blog</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Contact</a>
+    </div>
+        <div class="box">
+            <h3>Extra links</h3>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>My order</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>My favorite</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>My wishlist</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>my acount</a>
+        <a herf="#"><i class="fa-solid fa-arrow-right"></i>Terms or use</a>
+     </div>   
+        <div class="box">
+            <h3>Follow us</h3>
+        <a herf="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+        <a herf="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+        <a herf="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        <a herf="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+        <a herf="#"><i class="fa-brands fa-pinterest"></i>Pinterest</a>
+</div>
+
+</div>
+</section>
+
+<section class="credit">Created by sweetcakeshop</section>
+
+        </div>
+    </div>
+</section>
+
+
+    <!--custom js file link-->
+    <script src="main.js"></script>
+</body>
+</html>
